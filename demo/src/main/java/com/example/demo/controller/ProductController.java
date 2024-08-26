@@ -31,6 +31,7 @@ public class ProductController {
         } else {
             return "redirect:/";
         }
+
     }
     @PostMapping("/products/save")
     public String saveProduct (@ModelAttribute("") ProductEntity product) {
